@@ -1,0 +1,134 @@
+:root{
+    --fundo: rgba(9, 42, 114, 0.829);
+    --F_botao: chartreuse;
+    --t:aliceblue;
+}
+*{
+    margin: 0;
+}
+body{
+    display: flexbox;
+    background:var(--fundo);
+}
+nav{
+    margin-top: 0;
+    display: flex;
+    background: transparent;
+    position: static;
+    padding: 20px;
+}
+a{  color: #488;
+    text-decoration: none;
+    text-align: center;
+}
+button{
+    padding: 4px;
+    border: 0;
+    background-color: var(--F_botao);
+    border-radius: 50pc;
+    direction: none;
+}
+.conter{
+    margin:  auto;
+    width: 960px;
+}
+.place {
+border-color: #CCC #999 #999 #CCC;
+border: 1px solid #CCC;
+margin-bottom: 20px;
+padding: 10px;
+}
+.place img {
+border: 1px solid #7E9F19;
+float: left;
+margin: 10px 10px 0 0;
+padding: 5px;
+}
+.place h2 {
+border-bottom: 1px dashed #7E9F19;
+margin: 0;
+}
+
+.text1{
+    margin: 0px;
+    flex:90%;
+    align-items: center;
+    padding: 4px;
+}
+h1,h2,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--t);
+}
+
+.my{
+    width: 100px;
+    border:blue solid 0px;
+    height: 100%;
+    border-radius: 50%;
+}
+.my:hover{
+    background-clip: initial;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: justify;
+}
+.menu{
+    flex:40%;
+    text-align: right;
+    margin-top: 10px;
+}
+.logo{
+    margin-left: 10%;
+    text-align:left;
+    flex:60%;
+
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background: #8844;
+    margin-top: 10%;
+    background-position: bottom;
+}
+.bloco,.rede,.bloco2{
+    flex: 33%;
+    flex-direction: row;
+    border-left: 43px solid #667eea;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+/* estilo para a pasta dos meus programas */
+main{
+    margin-top: 20px;
+    display: inline-flex;
+    background-position: flex;
+}
+
+section{
+ flex:0%;
+ counter-reset: none;
+}
+.sete{
+    flex: 40%;
+    border-radius: 22px solid;
+    width: 100%;
+    margin-left: 20px;
+    position: relative;        
+}
+.card{
+    width: 200px;
+    align-items: center;
+    height: auto;
+    background:none;
+    text-align: center;
+}
+.card-element{
+    background-image: linear-gradient(#555,#232);
+    border: red double 10px;
+    border-radius: 20px;
+}
