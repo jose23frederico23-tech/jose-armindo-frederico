@@ -215,7 +215,7 @@ section{
 }
 .sete{
     flex: 40%;
-    border-radius: 22px solid;
+    border-radius:  22px solid;
     width: 100%;
     margin-left: 20px;
     position: relative;        
@@ -232,12 +232,12 @@ section{
     margin-top: 9px;
     margin-left: 10px;
     margin: bottom 0px;;
-    border: 2px solid rgb(from blue r g b);
+    border-radius: 2px solid rgb(from blue r g b);
     margin-right: 27px;
 }
 
 .B-code:hover{
-    border: none;
+    border-radius: none;
     background: rgba(172, 255, 47, 0.89);
 }
 
@@ -301,15 +301,23 @@ section{
     }
 }
 
-@media (max-width: 340px){
-    footer{
+@media (max-width: 400px){
+    .bloco{
         display: none;
     }
+   .rede{
+    align-items: center;
+   } 
 }
-@media (max-width: 410px){
-    footer{
+@media (max-width: 475px){
+    .bloco{
         display: none;
     }
+ .rede{
+    text-align: center;
+
+   }
+  
 }
 @media (max-width: 390px){
     footer{
