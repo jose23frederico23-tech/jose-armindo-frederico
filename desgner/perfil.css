@@ -301,6 +301,16 @@ section{
     }
 }
 
+@media (max-width: 340px){
+    footer{
+        display: none;
+    }
+}
+@media (max-width: 410px){
+    footer{
+        display: none;
+    }
+}
 @media (max-width: 390px){
     footer{
         display: none;
